@@ -1,7 +1,12 @@
 body {
-	background-image: url(images/san-fran.jpg);
+	background-image: url(images/background.jpg);
 	-moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+
+.het {
+ width: 100%;
+ margin-top: 10px;
 }
