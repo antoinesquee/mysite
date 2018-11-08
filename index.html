@@ -22,13 +22,13 @@
           <div class="right">
             <ul>
               <li>
-              <a href="#">Features</a>
+              <a href="#Features">Features</a>
               </li>
               <li>
-              <a href="#">My team</a>
+              <a href="#Myteam">My team</a>
               </li>
               <li>
-              <a href="#" class="modal-trigger btn nav-sign-up waves-effect waves-light">Join me</a>
+              <a href="#Joinme" class="modal-trigger btn nav-sign-up waves-effect waves-light">Join me</a>
               </li>
             </ul>
           </div>
@@ -47,5 +47,24 @@
       <li><a href="https://www.linkedin.com/in/anthony-budnik-7437737b/"><i class="fab fa-linkedin"></i></a></li>
     </ul>
   </div>
+  <h1 id="Features">Features</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis rerum deleniti quibusdam molestiae esse ad iusto natus, asperiores doloribus impedit quia quasi placeat unde recusandae ut fuga enim vel incidunt sed perspiciatis magni culpa corporis hic! Ducimus distinctio esse quod eius repudiandae at magni repellat, expedita molestiae, delectus, aliquam laborum vel eveniet reprehenderit sunt voluptate similique! Laborum earum sunt culpa vitae excepturi. Eum, at, illum!</p>
+<h1 id="Myteam">My team</h1>
+<p>Quaerat inventore saepe, impedit incidunt suscipit, ipsum hic eligendi accusantium. Vero rerum vitae earum repellendus eligendi id dolores possimus ipsam, accusantium est atque eum, ea at, porro placeat totam nihil natus sit. Tempore obcaecati hic, veniam quod doloremque ducimus similique, reiciendis maiores velit voluptatibus voluptatem totam officiis ab. Voluptate laudantium officia voluptates enim magni expedita nihil commodi itaque rem iure eaque, eius cumque dignissimos, ullam praesentium quas iusto dicta sint beatae saepe qui impedit eum est. Cupiditate eos unde eum maiores, repellendus in rerum natus doloremque accusamus nam labore aspernatur sequi optio iste quisquam </p>
+<h3 id="Joinme">Join me</h3>
 </body>
+<!--Библиотека jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $("a[href*=#]").on("click", function (e) {
+      var anchor = $(this);
+      $('html, body').stop().animate({
+        scrollTop: $(anchor.attr('href')).offset().top
+      }, 777);
+      e.preventDefault();
+      return false;
+    });
+  });
+</script>
 </html>
