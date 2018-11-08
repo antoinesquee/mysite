@@ -6,6 +6,19 @@ body {
   background-size: 100%; /* Современные браузеры */
 }
 
+.wrap {
+  display: inline-block;
+  margin: 0 40px 2em 0;
+  background: rgba(219, 211, 219, 0);
+}
+.three:hover {
+  -o-transform: translate(-100px, -100px);
+  -ms-transform: translate(-100px, -100px);
+  -moz-transform: translate(-100px, -100px);
+  -webkit-transform: translate(-100px, -100px);
+  transform: translate(-100px, -100px);
+}
+
 nav {
   box-shadow: none;
   background-color: none;
