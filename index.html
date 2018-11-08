@@ -8,6 +8,7 @@
 <link href="./css/animation.css" rel="stylesheet">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <link rel="stylesheet" href="./css/materialize.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" rel="stylesheet">
 <title>My web site</title>
 </head>
 <body>
@@ -15,24 +16,25 @@
     <div class="container-wide">
       <div class="row">
         <div class="col s12 m3">
-          <div class="wrap">
-            <div class="three">
-            <a href="#" class="logo"><img src="images/logo.png" alt="logo" class="logo">
+            <a href="#" class="logo"><img class="animated slideInDown" src="images/logo.png" alt="logo" class="logo">
             </a>
             </div>
             </div>
         </div>
         <div class="col s12 m9">
-          <div class="right">
+          <div class="right" style="margin: -96px 27px">
             <ul>
               <li>
               <a href="#Features">Features</a>
               </li>
               <li>
-              <a href="#Myteam">My team</a>
+              <a href="#Photo">Portfolio</a>
               </li>
               <li>
-              <a href="#Joinme" class="modal-trigger btn nav-sign-up waves-effect waves-light">Join me</a>
+              <a href="#Blog">Blog</a>
+              </li>
+              <li>
+              <a href="#modal1" class="modal-trigger btn nav-sign-up waves-effect waves-light">Join me</a>
               </li>
             </ul>
           </div>
@@ -40,15 +42,25 @@
       </div>
     </div>
   </nav>	
-<div class="center-align">
-<p class="flow-text het">Привет, меня зовут Антон и это мой первый сайт.</p>
+<div id="modal1" class="modal open" style="display: block; opacity: 1; top: 10%;  transform: scaleX(1) scaleY(1);">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch text</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
 </div>
-  <h1 id="Features">Features</h1>
+<div class="center-align">
+  <p class="flow-text het animated fadeIn slow delay-0s">Привет, меня зовут Антон и это мой первый сайт.</p>
+</div>
+  <h2 id="Features">Features</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis rerum deleniti quibusdam molestiae esse ad iusto natus, asperiores doloribus impedit quia quasi placeat unde recusandae ut fuga enim vel incidunt sed perspiciatis magni culpa corporis hic! Ducimus distinctio esse quod eius repudiandae at magni repellat, expedita molestiae, delectus, aliquam laborum vel eveniet reprehenderit sunt voluptate similique! Laborum earum sunt culpa vitae excepturi. Eum, at, illum!</p>
-<h1 id="Myteam">My team</h1>
-<p>Quaerat inventore saepe, impedit incidunt suscipit, ipsum hic eligendi accusantium. Vero rerum vitae earum repellendus eligendi id dolores possimus ipsam, accusantium est atque eum, ea at, porro placeat totam nihil natus sit. Tempore obcaecati hic, veniam quod doloremque ducimus similique, reiciendis maiores velit voluptatibus voluptatem totam officiis ab. Voluptate laudantium officia voluptates enim magni expedita nihil commodi itaque rem iure eaque, eius cumque dignissimos, ullam praesentium quas iusto dicta sint beatae saepe qui impedit eum est. Cupiditate eos unde eum maiores, repellendus in rerum natus doloremque accusamus nam labore aspernatur sequi optio iste quisquam </p>
-<h3 id="Joinme">Join me</h3>
-<div class="Footer">
+  <h2 id="Photo">Portfolio</h2>
+  <p>Quaerat inventore saepe, impedit incidunt suscipit, ipsum hic eligendi accusantium. Vero rerum vitae earum repellendus eligendi id dolores possimus ipsam, accusantium est atque eum, ea at, porro placeat totam nihil natus sit. Tempore obcaecati hic, veniam quod doloremque ducimus similique, reiciendis maiores velit voluptatibus voluptatem totam officiis ab. Voluptate laudantium officia voluptates enim magni expedita nihil commodi itaque rem iure eaque, eius cumque dignissimos, ullam praesentium quas iusto dicta sint beatae saepe qui impedit eum est. Cupiditate eos unde eum maiores, repellendus in rerum natus doloremque accusamus nam labore aspernatur sequi optio iste quisquam </p>
+  <h2 id="Blog">Blog</h2>
+  <h3 id="Joinme">Join me</h3>
+  <div class="Footer">
     <ul class="socialIcons">
       <li><a href="https://www.facebook.com/profile.php?id=100000422468084&ref=bookmarks"><i class="fab fa-facebook"></i></a></li>
       <li><a href="https://twitter.com/AntonyBudnik"><i class="fab fa-twitter"></i></a></li>
