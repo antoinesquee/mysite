@@ -1,12 +1,22 @@
 body {
 	background-color: #0cbaba;
   background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 #brand {
   width: 200px;
   height: 40px;
   margin: 15px 0px;
+}
+
+.page-footer {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
 }
