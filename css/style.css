@@ -1,38 +1,12 @@
 body {
-	background-image: url(../images/background.jpg);
-	-moz-background-size: 100%; /* Firefox 3.6+ */
-  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-  -o-background-size: 100%; /* Opera 9.6+ */
-  background-size: 100%; /* Современные браузеры */
+	background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
   width: 100vw;
   height: 100vh;
 }
 
-nav {
-  box-shadow: none;
-  background-color: none;
-  position: absolute;
-  top: 0;
-  padding: 30px 0 0;
-  width: 100%;
-  height: 155px;
-}
-
-.logo {
+#brand {
   width: 200px;
   height: 40px;
-  margin: 12px 5px 0.3em;
-}
-.het {
- width: 100%;
- margin-top: 350px;
-}
-#Features {
-  margin: 24.8rem 7px 5.68rem 2px;
-}
-#Myteam {
-  margin: 24.8rem 7px 5.68rem 2px;
-}
-#Joinme {
-  margin: 15.8rem 7px 1.68rem 2px;
+  margin: 15px 0px;
 }
