@@ -2,7 +2,7 @@
   padding: 0;
   margin: auto;
   list-style: none;
-  display: inline-block;
+  display: table;
   top: 0;
   right: 0;
   bottom: 0px;
@@ -12,7 +12,7 @@
 }
 .socialIcons li {
   display: inline-block;
-  margin: auto 10px;
+  margin: auto 13px;
 }
 .socialIcons li a {
   text-align: center;
@@ -24,7 +24,7 @@
   color: #fc9700;
   transition: all .5s ease;
   transform-origin: left;
-  transform: rotateY(-30deg);
+  transform: rotateY(-10deg);
   text-shadow: 10px 0px 1px #131313, 10px 0px 1px #070707, 10px 0px 1px black, 10px 0px 1px black;
 }
 .socialIcons li a:hover {

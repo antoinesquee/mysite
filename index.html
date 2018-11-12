@@ -27,7 +27,24 @@
     </nav>
     
   <main>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="/images/san-fran.jpg" alt="">
+    </div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h1 class="header">Parallax</h1>
+      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, tempore.</p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="background.jpg" alt="">
+    </div>
+  </div>
   </main>
+
   <footer class="page-footer">
     <div class="container">
     <ul class="socialIcons">
@@ -37,7 +54,14 @@
       <li><a href="https://www.linkedin.com/in/anthony-budnik-7437737b/"><i class="fab fa-linkedin"></i></a></li>
     </ul>
   </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2018 antoinesquee
+    </div>
+  </div>
   </footer>
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 <!--Библиотека jQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -53,4 +77,13 @@
     });
   });
 </script>
+<!--Библиотека JS-->
+<script src="./js/materialize.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, options);
+  });
+</script>
+
 </html>
