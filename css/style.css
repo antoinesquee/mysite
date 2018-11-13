@@ -16,6 +16,18 @@ main {
   margin: 15px 0px;
 }
 
+#img1 {
+  width: 101%;
+}
+
+#img2 {
+  width: 101%;
+}
+
+#img3 {
+  width: 101%;
+  height: 252%;
+}
 .page-footer {
   background-color: #0cbaba;
   background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
