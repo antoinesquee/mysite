@@ -32,6 +32,16 @@
   <div class="parallax-container">
     <div class="parallax">
       <img src="images/img1.jpg" alt="" id="img1">
+      <div class="slider">
+          <ul class="slides">
+            <li>
+                <div class="caption left-align">
+                  <h3>Left Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="section white">
@@ -136,6 +146,17 @@
   </footer>
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
+
+<!--Slieder-->
+<script>
+  const slider = document.querySelector('.slider');
+  M.Slider.init(slider, {
+    indicators: false,
+    height: 500,
+    transition: 500,
+    interval: 6000
+  });
+</script>
 </body>
 <!--Библиотека jQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
