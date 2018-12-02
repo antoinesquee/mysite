@@ -1,3 +1,15 @@
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+header .container-fluid
+{
+  background-image: url('images\hamish-clark-377301-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 36px;
+}
+
 body {
 	background-color: #0cbaba;
   background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
