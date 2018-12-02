@@ -3,7 +3,7 @@
 \*------------------------------------*/
 header .container-fluid
 {
-  background-image: url('images\hamish-clark-377301-unsplash.jpg');
+  background-image: url('https://images.unsplash.com/photo-1505429444201-5dd50fea3290?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=97d76f8bbcb7aacba310b15fb9ea85d6&auto=format&fit=crop&w=1965&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
