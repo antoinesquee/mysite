@@ -28,6 +28,11 @@ main {
   margin: 15px 0px;
 }
 
+#feat {
+    background-color: #F9F9FA;
+    color: #A1A7AF;
+    font-weight: 400;
+}
 .page-footer {
   background-color: #0cbaba;
   background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
