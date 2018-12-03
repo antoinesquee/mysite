@@ -1,4 +1,17 @@
 /*------------------------------------*\
+	COMMONS CLASSES
+\*------------------------------------*/
+.features,
+.blog,
+.gallery,
+.clients,
+.prefooter .container-fluid
+{
+    padding-top: 3.3em;
+    padding-bottom: 4.2em;
+}
+
+/*------------------------------------*\
 	HEADER
 \*------------------------------------*/
 header .container-fluid
