@@ -105,7 +105,7 @@ main {
   font-family: 'Roboto Slab', serif;
 }
 
-#about .row {
+#about, #history .row {
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -122,4 +122,12 @@ main {
 
 #news {
 background-color: #F9F9FA;
+}
+
+.story {
+    background-image: url('https://unsplash.it/3000/2000?image=531');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40em;
 }
