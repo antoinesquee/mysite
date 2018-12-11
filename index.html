@@ -157,13 +157,13 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
 </section>
 
 <section id="photos" class="gallery wow fadeInUp" data-wow-delay="300ms">
-    <div class="container">
-        <div class="row">
+    <div class="full-width">
+        <div id="about" class="row">
             <div class="carousel carousel-slider">
-                <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
-                <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-                <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-                <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+                <a class="carousel-item" href="#one!"><img src="https://unsplash.it/3000/2000?image=685"></a>
+                <a class="carousel-item" href="#two!"><img src="https://unsplash.it/3000/2000?image=685"></a>
+                <a class="carousel-item" href="#three!"><img src="https://unsplash.it/3000/2000?image=685"></a>
+                <a class="carousel-item" href="#four!"><img src="https://unsplash.it/3000/2000?image=685"></a>
               </div>            
         </div>
     </div>
@@ -186,13 +186,16 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
   </div>
   </footer>
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="https://code.jquert.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 <script>
  $('.carousel.carousel-slider').carousel({
-    fullWidth: true
+    fullWidth: true,
+    indicators: true,
+    duration: 500,
+    noWrap: true,
   });
 </script>
 
