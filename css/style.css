@@ -120,7 +120,7 @@ main {
   height: auto;
 }
 
-#news {
+#news, #photos {
 background-color: #F9F9FA;
 }
 
