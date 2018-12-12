@@ -13,7 +13,7 @@
   <!--Fonts and animate-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" rel="stylesheet">
+  <link href="./css/animate.css" rel="stylesheet">
 
 </head>
 <body class="">
@@ -36,7 +36,6 @@
     <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
   </ul>
 
-  
   <header id="home">
     <div class="container-fluid">
       <div class="container">
@@ -210,6 +209,7 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/wow.min.js"></script>
 </body>
 
 <script>
@@ -226,6 +226,10 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, options);
   });
+</script>
+
+<script>
+  new WOW().init(); 
 </script>
 
 </html>
