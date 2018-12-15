@@ -67,13 +67,15 @@
                 <p class="center wow fadeInDown" data-wow-delay="300ms">This is a simple hero unit, a simple jumbotron-style component for<br>
     calling extra attention to featured content or information.</p>
               </span>
-              <p><a class="waves-effect waves-light btn-large wow fadeInDown" data-wow-delay="300ms" role="button">Learn more</a> <a target="_blank" href="http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/" class="waves-effect waves-light btn-large red lighten-1 wow fadeInDown" data-wow-delay="300ms" role="button">Download</a></p>
+              <p><a class="waves-effect waves-light btn-large wow fadeInDown" data-wow-delay="300ms" role="button">Learn more</a> <a target="_blank" href="https://500px.com/antonb/" class="waves-effect waves-light btn-large red lighten-1 wow fadeInDown" data-wow-delay="300ms" style="width: 9vw" role="button">500PX</a></p>
           </div>
         </div>
       <!--Central text-->
       </div>
     </div>
   </header>
+
+  <!--Section Feat-->
   <section id="feat">
       <div class="container">
           <div class="row features">
@@ -96,6 +98,7 @@
       </div>
   </section>
 
+  <!--Section About-->
  <section id="about" class="number wow fadeInUp" data-wow-delay="300ms">
     <!-- change the image in style.css to the class .number .container-fluid [approximately row 102] -->
     <div class="container-fluid">
@@ -117,6 +120,7 @@
     </div>
 </section>
 
+<!--Section News-->
 <section id="news" class="blog wow fadeInUp" data-wow-delay="300ms">
     <div class="container">
         <div class="row">
@@ -127,14 +131,13 @@
                 <a class="btn btn-danger btn-lg" href="#">Take a Look <i class="fa fa-arrow-circle-o-right"></i> </a>
             </div>
             <div class="col m5">
-                <a href="#">
-                    <img src="https://unsplash.it/1200/1200?image=839" alt="" class="img-responsive">
-                </a>
+                <img class="materialboxed" width="400" src="https://unsplash.it/1200/1200?image=839" alt="" class="img-responsive">
             </div>
         </div>
     </div>
 </section>
 
+<!--Section History-->
 <section id="history" class="story wow fadeInUp" data-wow-delay="300ms">
     <!-- change the image in style.css to the class .number .container-fluid [approximately row 102] -->
         <div class="container">
@@ -145,7 +148,7 @@
                             <p class="lead"><i>Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
                             <p><i>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
                             <h6 class="lead"> – Fermentum Dapibus</h6>
-                            <p><small>Nibh Etiam Risus Bibendum<br>
+                            <p style="margin-bottom: 30px;"><small>Nibh Etiam Risus Bibendum<br>
 Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
                           </div>
                     </div>
@@ -155,6 +158,7 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
         </div>
 </section>
 
+<!--Section Feat 2-->
 <section id="feat">
   <div class="container">
       <div class="row features">
@@ -177,10 +181,11 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
   </div>
 </section>
 
+<!--Section Slider-->
 <section id="photos" class="gallery wow fadeInUp" data-wow-delay="300ms">
     <div class="full-width">
         <div id="about" class="row">
-            <div class="carousel carousel-slider">
+            <div class="carousel carousel-slider" style="height: 80vh;">
                 <a class="carousel-item" href="#one!"><img src="https://unsplash.it/3000/2000?image=685"></a>
                 <a class="carousel-item" href="#two!"><img src="https://unsplash.it/3000/2000?image=685"></a>
                 <a class="carousel-item" href="#three!"><img src="https://unsplash.it/3000/2000?image=685"></a>
@@ -212,15 +217,31 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
 <script src="js/wow.min.js"></script>
 </body>
 
+<!--Slider-->
 <script>
  $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true,
     duration: 500,
-    noWrap: true,
+    noWrap: false,
   });
 </script>
 
+<!--Media-->
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+</script>
+
+<!--Sidenav-->
 <script>
   var elem = document.querySelector('.sidenav');
   var instance = new M.Sidenav(elem);
