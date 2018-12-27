@@ -1,6 +1,39 @@
+/*------------------------------------*\
+	COMMONS CLASSES
+\*------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin-bottom: 1.1em;
+}
+
+.features,
+.blog,
+.clients,
+.prefooter .container-fluid
+{
+    padding-top: 3.3em;
+    padding-bottom: 4.2em;
+}
+
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+header .container-fluid
+{
+  background-image: url('https://images.unsplash.com/photo-1505429444201-5dd50fea3290?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=97d76f8bbcb7aacba310b15fb9ea85d6&auto=format&fit=crop&w=1965&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 36px;
+}
+
+
 body {
-	background-color: #0cbaba;
-  background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -10,13 +43,93 @@ main {
   flex: 1 0 auto;
 }
 
-#brand {
-  width: 200px;
-  height: 40px;
-  margin: 15px 0px;
+.logo
+{
+    background: none;
+    border: 0px;
 }
 
+#feat {
+    background-color: #F9F9FA;
+    color: #A1A7AF;
+    font-weight: 400;
+}
 .page-footer {
-  background-color: #0cbaba;
-  background-image: linear-gradient(315deg, #380036  0%, #0cbaba 74%);
+  background-color: #525252;
+}
+
+/*------------------------------------*\
+	SECTIONS
+\*------------------------------------*/
+
+.number .container-fluid
+{
+    background-image: url('https://unsplash.it/3000/2000?image=685');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opaline
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgba(128, 215, 247, 0.660);
+}
+
+.opaline h1,
+.opaline h2,
+.opaline h3,
+.opaline h4,
+.opaline h5,
+.opaline h6,
+.opaline p
+{
+    color: #FFFFFF;
+}
+
+.opaline .boxes
+{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border: 1px solid #FFF;
+}
+
+.boxes .odometer.odometer-theme-default
+{
+  font-family: 'Roboto Slab', serif;
+}
+
+#about, #history .row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#news, #photos {
+background-color: #F9F9FA;
+}
+
+.story {
+    background-image: url('https://unsplash.it/3000/2000?image=531');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+}
+
+.carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

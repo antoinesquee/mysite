@@ -19,9 +19,9 @@
   display: inline-block;
   font-size: 2rem;
   height: 50px;
-  width: 10px;
+  width: 15px;
   line-height: 50px;
-  color: #fc9700;
+  color: #4fb7d6;
   transition: all .5s ease;
   transform-origin: left;
   transform: rotateY(-10deg);
