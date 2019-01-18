@@ -32,11 +32,15 @@ header .container-fluid
   padding-top: 36px;
 }
 
+.dark-text {
+    color: #1d4754 !important;
+}
 
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 main {
