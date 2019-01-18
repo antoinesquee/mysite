@@ -142,3 +142,12 @@ background-color: #F9F9FA;
     background-size: cover;
     background-position: center;
 }
+
+@media (min-height: 650px), (max-height: 650px) {
+ h1 {
+     margin-bottom: 0.1em;
+ }
+ .dark-text {
+     color: #FFF;
+ }
+}
