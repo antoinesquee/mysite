@@ -31,16 +31,18 @@ header .container-fluid
   height: 100vh;
   padding-top: 36px;
 }
+#home  h1 {
+    font-size: 6.2rem;
+}
 
 .dark-text {
-    color: #1d4754 !important;
+    color: #1d4754;
 }
 
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
 }
 
 main {
@@ -143,11 +145,16 @@ background-color: #F9F9FA;
     background-position: center;
 }
 
-@media (min-height: 650px), (max-height: 650px) {
- h1 {
+@media only screen and (max-height: 850px) {
+ #home h1 {
      margin-bottom: 0.1em;
+     font-size: 4.2rem !important;
  }
  .dark-text {
      color: #FFF;
+ }
+ #home .row {
+    margin-bottom: 0px;
+    margin-top: 0px;
  }
 }
