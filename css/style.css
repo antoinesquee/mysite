@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6
     padding-bottom: 4.2em;
 }
 
+.menu-btn {
+    position: fixed;
+    padding: 20px 20px;
+}
 /*------------------------------------*\
 	HEADER
 \*------------------------------------*/
