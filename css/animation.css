@@ -10,6 +10,10 @@
   height: 0px;
   text-align: center;
 }
+
+#sifooter {
+  padding: 0px !important;
+}
 .socialIcons li {
   display: inline-block;
   margin: auto 13px;
