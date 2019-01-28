@@ -29,7 +29,7 @@
   </ul>
   <div class=".left-align menu-btn hide-on-small-only">
     <a href="#" data-target="slide-out" class="sidenav-trigger btn-floating btn-medium waves-effect waves-light red">
-      <i style="background-color: #2bbbad;" class="material-icons medium">keyboard_arrow_left</i>
+      <i style="background-color: #4fb7d6;" class="material-icons medium">keyboard_arrow_left</i>
     </a>
     </span>
   </div>
@@ -48,7 +48,7 @@
                     <ul class="socialIcons">
                       <li><a href="https://www.facebook.com/profile.php?id=100000422468084&ref=bookmarks"><i class="fab fa-facebook"></i></a></li>
                       <li><a href="https://twitter.com/AntonyBudnik"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="https://www.instagram.com/antoinesquee/"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://github.com/antoinesquee"><i class="fab fa-github-square"></i></a></li>
                       <li><a href="https://www.linkedin.com/in/anthony-budnik-7437737b/"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
             </div>
@@ -185,7 +185,7 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
     <ul class="socialIcons">
       <li><a href="https://www.facebook.com/profile.php?id=100000422468084&ref=bookmarks"><i class="fab fa-facebook"></i></a></li>
       <li><a href="https://twitter.com/AntonyBudnik"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="https://www.instagram.com/antoinesquee/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://github.com/antoinesquee"><i class="fab fa-github-square"></i></a></li>
       <li><a href="https://www.linkedin.com/in/anthony-budnik-7437737b/"><i class="fab fa-linkedin"></i></a></li>
     </ul>
   </div>
@@ -196,12 +196,12 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
   </div>
   </footer>
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="js/wow.min.js"></script>
 </body>
 
-<!--Slider-->
+<!--Slider
 <script>
  $('.carousel.carousel-slider').carousel({
     fullWidth: true,
@@ -209,7 +209,21 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
     duration: 500,
     noWrap: false,
   });
-</script>
+</script>-->
+
+<!--smooth scrolling-->
+<script>
+    $(document).ready(function(){
+      $("a[href*=#]").on("click", function(e){
+          var anchor = $(this);
+          $('html, body').stop().animate({
+              scrollTop: $(anchor.attr('href')).offset().top
+          }, 777);
+          e.preventDefault();
+          return false;
+      });
+  });
+  </script>
 
 <!--Media-->
 <script>
