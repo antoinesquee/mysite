@@ -2,81 +2,73 @@
 <html>
 <head>
   <meta charset=utf-8>
-  <meta name="veiwport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#db5945">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4fb7d6">
   <title>My web site</title>
   <!--Materialazia CSS-->
   <link rel="stylesheet" href="./css/materialize.min.css">
   <!--Custom CSS-->
   <link href="./css/animation.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <!--Fonts and animate-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="./css/animate.css" rel="stylesheet">
 
 </head>
-<body class="">
-  <!--Nav bar-->
-
+<body>
+<!--Nav bar-->
   <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="images/office.jpg">
-      </div>
-      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#name"><span class="white-text name">John Doe</span></a>
-      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-      </div>
-    </li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#feat">Feat</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#history">History</a></li>
   </ul>
+  <div class=".left-align menu-btn hide-on-small-only">
+    <a href="#" data-target="slide-out" class="sidenav-trigger btn-floating btn-medium waves-effect waves-light red">
+      <i style="background-color: #4fb7d6;" class="material-icons medium">keyboard_arrow_left</i>
+    </a>
+    </span>
+  </div>
 
   <header id="home">
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col s12 m3">
-              <a href="#" class="thumbnail logo">
+          <div class="col s7 offset-s3 m5 offset-m4 l3 xl3">
+              <a href="http://aniq.rombu.link" class="thumbnail logo">
                   <img src="images/ant.png" alt="" class="img-responsive">
               </a>
           </div>
-          <div class="col s10 m8">
+          <div class="hide-on-small-only col s7 offset-s2 m5 offset-m3 l9 xl4 offset-xl5">
             <div class="right">
                     <ul class="socialIcons">
                       <li><a href="https://www.facebook.com/profile.php?id=100000422468084&ref=bookmarks"><i class="fab fa-facebook"></i></a></li>
                       <li><a href="https://twitter.com/AntonyBudnik"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="https://www.instagram.com/antoinesquee/"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://github.com/antoinesquee"><i class="fab fa-github-square"></i></a></li>
                       <li><a href="https://www.linkedin.com/in/anthony-budnik-7437737b/"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
-             <!--<div class="menu-btn">
-              <span style="font-size: 0em;">
-              <a href="#" data-target="slide-out" class="sidenav-trigger">
-                <i style="font-size: 38px" class="material-icons">dehaze</i>
-              </a>
-              </span>
-            </div>-->
-          </div>
-          </div>
+            </div>
+            </div>
           <!--Menu button-->
         </div>
-        <!--Central text-->
         <div class="row">
           <div class="center" style="margin-top: 3em;">
-              <span class="white-text">
-                <h1 class="center wow fadeInDown" data-wow-delay="300ms"><small>In the hall of the</small></br>
-                <strong>Mountain King</strong></h1>
-                <p class="center wow fadeInDown" data-wow-delay="300ms">This is a simple hero unit, a simple jumbotron-style component for<br>
-    calling extra attention to featured content or information.</p>
+              <span class="dark-text">
+                <h1 class="center wow fadeInDown" data-wow-delay="300ms"><strong>In the hall of the</strong></br>
+                <small>Mountain King</small></h1>
               </span>
-              <p><a class="waves-effect waves-light btn-large wow fadeInDown" data-wow-delay="300ms" role="button">Learn more</a> <a target="_blank" href="https://500px.com/antonb/" class="waves-effect waves-light btn-large red lighten-1 wow fadeInDown" data-wow-delay="300ms" style="width: 9vw" role="button">500PX</a></p>
+              <span class="white-text">
+                <p class="center wow fadeInDown" style="font-size: 20px" data-wow-delay="300ms">I have only one life to live it how I desire</p>
+              </span>
+              <p><a href="#feat" class="waves-effect waves-light btn-large wow fadeInDown" data-wow-delay="300ms" role="button">Learn more</a> 
+                <a target="_blank" href="https://500px.com/antonb/" class="waves-effect waves-light btn-large red lighten-1 wow fadeInDown" data-wow-delay="300ms" style="width: 150px" role="button">500PX</a>
+              </p>
           </div>
         </div>
-      <!--Central text-->
       </div>
     </div>
   </header>
@@ -85,17 +77,17 @@
   <section id="feat">
       <div class="container">
           <div class="row features">
-              <div class="col s4 text-center wow fadeInUp" data-wow-delay="100ms">
+              <div class="col s12 m8 offset-m2 l4 xl4 text-center wow fadeInUp" data-wow-delay="100ms">
                   <!--Иконка--><span class="typcn typcn-pencil x3"></span>
                   <h4 class="center-align">Consectetur Risus</h4>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
-              <div class="col s4 text-center wow fadeInUp" data-wow-delay="300ms">
+              <div class="col s12 m8 offset-m2 l4 xl4 text-center wow fadeInUp" data-wow-delay="300ms">
                   <!--Иконка--><span class="typcn typcn-camera-outline x3"></span>
                   <h4 class="center-align">Ultricies Aenean</h4>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
               </div>
-              <div class="col s4 text-center wow fadeInUp" data-wow-delay="500ms">
+              <div class="col s12 m8 offset-m2 l4 xl4 text-center wow fadeInUp" data-wow-delay="500ms">
                   <!--Иконка--><span class="typcn typcn-bookmark x3"></span>
                   <h4 class="center-align">Cras Sollicitudin</h4>
                   <p>Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.</p>
@@ -110,13 +102,13 @@
     <div class="container-fluid">
         <div class="container">
           <div id="about" class="row">
-                <div class="col s6 opaline offset-s7">
+                <div class="col s12 m8 offset-m2 l7 opaline offset-l6 xl6 opaline offset-xl7">
                     <div class="row">
-                        <div class="offset-m1 col m10">
+                        <div class="col s10 offset-s1 m10 offset-m1">
                             <h3>Ligula Mattis Ornare Ultricies</h3>
                             <h5>Pellentesque Cursus Amet Parturient Etiam</h5>
                             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea est, laborum repudiandae fugiat inventore modi laboriosam nam sed molestiae commodi numquam id. Quos minus aliquam accusantium molestiae voluptatibus veritatis magni commodi eum alias, harum inventore, saepe ipsa doloremque. Eius voluptatum cupiditate blanditiis minus totam, ipsa, et quos fugit illo laborum in natus possimus laudantium nesciunt quis libero? Alias sint cumque aspernatur a quisquam, dolorem quibusdam quam perferendis ducimus nam! Nulla, porro consequatur dolore delectus vel debitis sequi minus maiores id alias, voluptas ut amet ex natus molestiae? Unde quo excepturi, quam velit eveniet aperiam? Corporis cumque qui aliquam itaque amet fugit neque atque consequatur ipsum vitae necessitatibus nemo impedit facere culpa velit dolorem quibusdam consectetur autem facilis libero, beatae eveniet excepturi voluptatibus? Quia, alias non minima ab error corporis, cum maxime quis accusamus facere amet. Impedit nesciunt error debitis voluptates officiis doloribus voluptatibus ex dolor. Delectus molestiae incidunt iusto fugiat.</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea est, laborum repudiandae fugiat inventore modi laboriosam nam sed molestiae commodi numquam id. Quos minus aliquam accusantium molestiae voluptatibus veritatis magni commodi eum alias, harum inventore, saepe ipsa doloremque. Eius voluptatum cupiditate blanditiis minus totam, ipsa, et quos fugit illo laborum in natus possimus laudantium nesciunt quis libero? Alias sint cumque aspernatur a quisquam, dolore.</p>
                           </div>
                     </div>
                     </div>
@@ -130,14 +122,14 @@
 <section id="news" class="blog wow fadeInUp" data-wow-delay="300ms">
     <div class="container">
         <div class="row">
-            <div class="col m7">
+            <div class="col xl7 l7 m10 offset-m1 s10 offset-s1">
                 <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
                 <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
                 <a class="btn btn-danger btn-lg" href="#">Take a Look <i class="fa fa-arrow-circle-o-right"></i> </a>
             </div>
-            <div class="col s4 offset-m1">
-                <img class="materialboxed" width="400" src="images/self.jpg" alt="" class="img-responsive">
+            <div class="col xl4 offset-xl1 l3 offset-l1 m7 offset-m3 s10 offset-s1">
+                <img class="materialboxed" width="100%" src="images/self.jpg" alt="" class="img-responsive">
             </div>
         </div>
     </div>
@@ -148,7 +140,7 @@
     <!-- change the image in style.css to the class .number .container-fluid [approximately row 102] -->
         <div class="container">
           <div id="about" class="row">
-                <div class="col m6 opaline">
+                <div class="col s12 m8 offset-m2 l7 xl6 opaline">
                     <div class="row">
                         <div class="col m10 offset-m1">
                             <p class="lead"><i>Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
@@ -168,17 +160,17 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
 <section id="feat">
   <div class="container">
       <div class="row features">
-          <div class="col s4 text-center wow fadeInUp" data-wow-delay="100ms">
+          <div class="col s12 m8 offset-m2 l4 xl4 text-center wow fadeInUp" data-wow-delay="100ms">
               <!--Иконка--><span class="typcn typcn-pencil x3"></span>
               <h4 class="center-align">Consectetur Risus</h4>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
           </div>
-          <div class="col s4 text-center wow fadeInUp" data-wow-delay="300ms">
+          <div class="col s12 m8 offset-m2 l4 xl4 text-center wow fadeInUp" data-wow-delay="300ms">
               <!--Иконка--><span class="typcn typcn-camera-outline x3"></span>
               <h4 class="center-align">Ultricies Aenean</h4>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
           </div>
-          <div class="col s4 text-center wow fadeInUp" data-wow-delay="500ms">
+          <div class="col s12 m8 offset-m2 l4 xl4 text-center wow fadeInUp" data-wow-delay="500ms">
               <!--Иконка--><span class="typcn typcn-bookmark x3"></span>
               <h4 class="center-align">Cras Sollicitudin</h4>
               <p>Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.</p>
@@ -186,28 +178,13 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
       </div>
   </div>
 </section>
-
-<!--Section Slider-->
-<!--<section id="photos" class="gallery wow fadeInUp" data-wow-delay="300ms">
-    <div class="full-width">
-        <div id="about" class="row">
-            <div class="carousel carousel-slider" style="height: 80vh;">
-                <a class="carousel-item" href="#one!"><img src="https://unsplash.it/3000/2000?image=685"></a>
-                <a class="carousel-item" href="#two!"><img src="https://unsplash.it/3000/2000?image=685"></a>
-                <a class="carousel-item" href="#three!"><img src="https://unsplash.it/3000/2000?image=685"></a>
-                <a class="carousel-item" href="#four!"><img src="https://unsplash.it/3000/2000?image=685"></a>
-              </div>            
-        </div>
-    </div>
-</section>-->
-
 <!--Footer-->
   <footer class="page-footer">
     <div class="container">
-    <ul class="socialIcons">
+    <ul id="sifooter" class="socialIcons">
       <li><a href="https://www.facebook.com/profile.php?id=100000422468084&ref=bookmarks"><i class="fab fa-facebook"></i></a></li>
       <li><a href="https://twitter.com/AntonyBudnik"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="https://www.instagram.com/antoinesquee/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://github.com/antoinesquee"><i class="fab fa-github-square"></i></a></li>
       <li><a href="https://www.linkedin.com/in/anthony-budnik-7437737b/"><i class="fab fa-linkedin"></i></a></li>
     </ul>
   </div>
@@ -218,12 +195,12 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
   </div>
   </footer>
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="js/wow.min.js"></script>
 </body>
 
-<!--Slider-->
+<!--Slider
 <script>
  $('.carousel.carousel-slider').carousel({
     fullWidth: true,
@@ -231,7 +208,21 @@ Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
     duration: 500,
     noWrap: false,
   });
-</script>
+</script>-->
+
+<!--smooth scrolling-->
+<script>
+    $(document).ready(function(){
+      $("a[href*=#]").on("click", function(e){
+          var anchor = $(this);
+          $('html, body').stop().animate({
+              scrollTop: $(anchor.attr('href')).offset().top
+          }, 777);
+          e.preventDefault();
+          return false;
+      });
+  });
+  </script>
 
 <!--Media-->
 <script>

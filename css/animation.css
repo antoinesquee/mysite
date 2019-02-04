@@ -1,5 +1,5 @@
 .socialIcons {
-  padding: 0;
+  padding: 32px;
   margin: auto;
   list-style: none;
   display: table;
@@ -9,6 +9,10 @@
   left: 0;
   height: 0px;
   text-align: center;
+}
+
+#sifooter {
+  padding: 0px !important;
 }
 .socialIcons li {
   display: inline-block;
@@ -21,7 +25,7 @@
   height: 50px;
   width: 15px;
   line-height: 50px;
-  color: #4fb7d6;
+  color: #1783a5;
   transition: all .5s ease;
   transform-origin: left;
   transform: rotateY(-10deg);

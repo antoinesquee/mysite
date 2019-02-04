@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6
     padding-bottom: 4.2em;
 }
 
+.menu-btn {
+    position: fixed;
+    padding: 20px 20px;
+}
 /*------------------------------------*\
 	HEADER
 \*------------------------------------*/
@@ -31,12 +35,19 @@ header .container-fluid
   height: 100vh;
   padding-top: 36px;
 }
+#home  h1 {
+    font-size: 6.2rem;
+}
 
+.dark-text {
+    color: #1d4754;
+}
 
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: overlay;
 }
 
 main {
@@ -74,7 +85,7 @@ main {
 {
     padding-top: 3em;
     padding-bottom: 3em;
-    background-color: rgba(128, 215, 247, 0.660);
+    background-color: #80d7f7a8;
 }
 
 .opaline h1,
@@ -101,9 +112,14 @@ main {
   font-family: 'Roboto Slab', serif;
 }
 
-#about, #history .row {
+#about {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px; 
+}
+
+#history .row {
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .img-responsive,
@@ -132,4 +148,19 @@ background-color: #F9F9FA;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media only screen and (max-width: 850px) {
+ #home h1 {
+     margin-bottom: 0.1em;
+     margin: -2.2rem 0 1.68rem 0;
+     font-size: 4.2rem !important;
+ }
+ .dark-text {
+     color: #FFF;
+ }
+ #home .row {
+    margin-bottom: 0px;
+    margin-top: 0px;
+ }
 }
